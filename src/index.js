@@ -1,5 +1,5 @@
-import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import './сss/style.css';
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SlimSelect from 'slim-select';
 import { fetchBreeds, fetchCatByBreed } from './js/cat-api';
 import { createMarkup, createMarkupCat } from './js/markup';
