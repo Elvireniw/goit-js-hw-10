@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.title {
+  color: #91918e;
+  font-size: 25px;
+}
+
+body {
+  background-image: url('../images/bg-cat.jpg');
+}
+
+.cat-img {
+  display: block;
+  width: 600px;
+  height: 100%;
+}
+
+.error {
+  font-weight: 700;
+}
+
+.loader {
+  font-weight: 700;
+}
+
+.cat-info {
+  padding: 15px;
+  display: flex;
+  column-gap: 25px;
+  box-shadow: 0px 3px 10px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  background-color: rgb(255, 255, 255);
+}
+
+.description {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 50%;
+}
+
+.breed-select {
+  font-family: sans-serif;
+  width: 200px;
+  height: 25px;
+  font-weight: 700;
+  border-color: grey;
+}
+
+.is-hidden {
+  visibility: hidden;
+}
